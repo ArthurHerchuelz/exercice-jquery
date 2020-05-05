@@ -1,3 +1,5 @@
 $(document).ready(function() {
-  $('#text').toggle();
+  $('#text1').toggle();
+  $('#text2').hide();
+  $('#text3').css('visibility','hidden');
 });
