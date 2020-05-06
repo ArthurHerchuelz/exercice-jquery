@@ -1,4 +1,4 @@
 $(document).ready(function() {
-$('ol').children().addClass('children');
-$('.children').css('color','red');
+  // $('ol').children().css('color','red');
+  $('ol>li').css('color','red');
 })
