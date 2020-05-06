@@ -1,0 +1,11 @@
+$(document).ready(function(){
+$('#green').click(function(){
+  $('#text').addClass('green');
+});
+$('#red').click(function(){
+  $('#text').addClass('red');
+});
+$('#blue').click(function(){
+  $('#text').addClass('blue');
+});
+});
