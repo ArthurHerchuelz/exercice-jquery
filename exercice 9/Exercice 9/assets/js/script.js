@@ -1,11 +1,11 @@
 $(document).ready(function(){
 $('#green').click(function(){
-  $('#text').addClass('green');
+  $('#text').css('color','green');
 });
 $('#red').click(function(){
-  $('#text').addClass('red');
+  $('#text').css('color','red');
 });
 $('#blue').click(function(){
-  $('#text').addClass('blue');
+  $('#text').css('color','blue');
 });
 });
