@@ -17,7 +17,7 @@ $(document).ready(function() {
     else if (value == randomnumber) {
       alert('Tu as gagné en ' + score +' essais!');
     }
-    else ((value > 100) && (value == 1))
+    else if ((value > 100) && (value == 1))
       alert('Entre 1 et 100 on a dit!')
   });
 });
